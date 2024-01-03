@@ -238,7 +238,7 @@ A window will appear. Choose the account that you would like to connect then cho
 
 ![Connect Polkdadot account](hdx_img/subwallet-29.png)
 
-Once you have approved the connection, you will need to choose the account that you would like to use on the dApp by clicking **Go to accounts**.
+Once you have approved the connection, you will need to choose the account that you would like to use on the dApp.
 
 ![Staking tab](hdx_img/subwallet-30.png)
 
