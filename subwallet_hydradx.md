@@ -6,13 +6,13 @@ title: SubWallet
 # Connecting SubWallet to HydraDX
 
 SubWallet is the comprehensive non-custodial wallet solution for Polkadot, Substrate & Ethereum ecosystems. Built on top of Polkadot {.js}, SubWallet focuses on improving UX & UI. We envision a crypto wallet as a Web3 multiverse gateway through which users can enjoy multi-chain services with utmost ease and absolute security.
-This guide will show you how to manage your accounts, tokens, stake your tokens in-app, and connect to the HydraDX Staking Dashboard using SubWallet!
+This guide will show you how to manage your accounts, tokens, and connect to HydraDX using SubWallet!
 
 ## Install SubWallet
 
 SubWallet is available on a range of platforms for you to choose from:
 
-1. A **browser extension** which is available on [Google Chrome](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [Brave](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [MS Edge](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/subwallet/).
+1. A **browser extension** which is available on [Google Chrome](https://chromewebstore.sgoogle.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [Brave](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [MS Edge](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/subwallet/).
 
 2. A **mobile app** which is available on the [App Store](https://apps.apple.com/us/app/subwallet-polkadot-wallet/id1633050285) and [Google Play Store](https://play.google.com/store/apps/details?id=app.subwallet.mobile).
 
@@ -187,7 +187,7 @@ From your home screen, choose the first blue icon under the eye.
 
 :::important
 
-**If you are in all-accounts mode**, you will be prompted to choose an account if you are in all-accounts mode.
+**If you are in all-accounts mode**, you will be prompted to choose an account.
 
 ![All accounts mode](hdx_img/subwallet-21.png)
 
@@ -196,6 +196,12 @@ From your home screen, choose the first blue icon under the eye.
 Search for the token that you would like to receive, in this case, **HDX**. You can either **Copy the address** or **View address QR**.
 
 ![Copy address](hdx_img/subwallet-22.png)
+
+:::note
+
+HDX is allowed to execute cross-chain transfer, so when choosing the token, make sure you are receiving HDX on the correct chain by checking the network icon under the tokens.
+
+:::
 
 Send the address or show the QR code to the sender and you'll be able to receive HDX from them!
 
@@ -210,6 +216,13 @@ To get started with a simple token transfer to another address on HydraDX, you c
 Next, you can take the following steps:
 
 1. Specify the asset to send and the destination chain.
+
+   :::note
+
+   HDX is allowed to execute cross-chain transfer, so when choosing the destination network, you can choose the drop-down menu to see the available options.
+
+   :::
+
 2. Enter the destination address
 3. Enter the amount of tokens to send
 4. Look over the transaction details, then press **Transfer**
