@@ -5,7 +5,7 @@ title: SubWallet
 
 # Connecting SubWallet to HydraDX
 
-SubWallet is the comprehensive non-custodial wallet solution for Polkadot, Substrate & Ethereum ecosystems. Built on top of Polkadot {.js}, SubWallet focuses on improving UX & UI. We envision a crypto wallet as a Web3 multiverse gateway through which users can enjoy multi-chain services with utmost ease and absolute security. 
+SubWallet is the comprehensive non-custodial wallet solution for Polkadot, Substrate & Ethereum ecosystems. Built on top of Polkadot {.js}, SubWallet focuses on improving UX & UI. We envision a crypto wallet as a Web3 multiverse gateway through which users can enjoy multi-chain services with utmost ease and absolute security.
 This guide will show you how to manage your accounts, tokens, stake your tokens in-app, and connect to the HydraDX Staking Dashboard using SubWallet!
 
 ## Install SubWallet
@@ -13,7 +13,6 @@ This guide will show you how to manage your accounts, tokens, stake your tokens 
 SubWallet is available on a range of platforms for you to choose from:
 
 1. A **browser extension** which is available on [Google Chrome](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [Brave](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn), [MS Edge](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/subwallet/).
-
 
 2. A **mobile app** which is available on the [App Store](https://apps.apple.com/us/app/subwallet-polkadot-wallet/id1633050285) and [Google Play Store](https://play.google.com/store/apps/details?id=app.subwallet.mobile).
 
@@ -27,8 +26,7 @@ Once you have installed the extension, you'll have the option to **create**, **i
 
 ![Browser extension create screen](hdx_img/subwallet-1.png)
 
-
-:::note 
+:::note
 
 HydraDX is a Substrate-native chain, so you will only be able to view and interact with HydraDX by creating or importing a Substrate account.
 
@@ -42,13 +40,12 @@ To create a new account, click on **Create a new account**.
 
 You will then need to create your master password which keeps all of your accounts secure. Once you have entered the password and then confirmed it, click on **Continue**.
 
-
 ![Master password](hdx_img/subwallet-3.png)
 
 :::note
 
-For each seed phrase created with SubWallet, you would have a Substrate account and an Ethereum account. 
-Substrate account would display your assets on Substrate-native blockchains (such as Polkadot, Kusama), while Ethereum account would display your assets on Ethereum chains (such as Moonbeam). 
+For each seed phrase created with SubWallet, you would have a Substrate account and an Ethereum account.
+Substrate account would display your assets on Substrate-native blockchains (such as Polkadot, Kusama), while Ethereum account would display your assets on Ethereum chains (such as Moonbeam).
 
 :::
 
@@ -63,6 +60,7 @@ You should never share your seed phrase (mnemonic) or private key with anyone. T
 :::
 
 You have finished creating a new account! If you want to create additional accounts, follow these steps:
+
 1. Choose the accounts tab on the top of the extension.
 
 ![Create additional accounts 1](hdx_img/subwallet-5.png)
@@ -73,7 +71,7 @@ You have finished creating a new account! If you want to create additional accou
 
 ### Import an existing account
 
-To import an account that you have already created, choose **Import an account**. 
+To import an account that you have already created, choose **Import an account**.
 
 ::: note
 
@@ -90,7 +88,6 @@ Then you can choose your preferred method of importing.
 After you have chosen a method, you will be prompted to create a master password. Enter your password and click on **Continue**.
 
 ![Master password](hdx_img/subwallet-3.png)
-
 
 :::caution
 
@@ -110,7 +107,7 @@ Enter your seed phrase in the text boxes. You can use either a 12-word seed phra
 
 ::: important
 
-In some cases, if you import an account from a seed phrase, problems can arise if the seed phrase of your original wallet is not compatible with SubWallet. **Trust Wallet** and **Safepal** are among the wallets not compatible with us. 
+In some cases, if you import an account from a seed phrase, problems can arise if the seed phrase of your original wallet is not compatible with SubWallet. **Trust Wallet** and **Safepal** are among the wallets not compatible with us.
 
 :::
 
@@ -120,7 +117,7 @@ You can import a Polkadot.js account after exporting the JSON backup file. Click
 
 ![Upload JSON file](hdx_img/subwallet-11.png)
 
-You will then need to enter your JSON file password (created when you set up the wallet for the first time) and click **Import by JSON file**. 
+You will then need to enter your JSON file password (created when you set up the wallet for the first time) and click **Import by JSON file**.
 
 ![JSON file password](hdx_img/subwallet-12.png)
 
@@ -141,15 +138,14 @@ Click on **Scan QR**. If you have not enabled camera access yet, a message will 
 
 ![Import with QR Code](hdx_img/subwallet-14.png)
 
-On the settings page, toggle on **Camera access for QR** then head back to the QR page, click on **Scan QR** and scan your accounts' QR code. After the successful import of your account by QR code, you will be directed to the Homepage. 
-
+On the settings page, toggle on **Camera access for QR** then head back to the QR page, click on **Scan QR** and scan your accounts' QR code. After the successful import of your account by QR code, you will be directed to the Homepage.
 
 ![Enable camera access](hdx_img/subwallet-15.png)
-
 
 #### Import additional accounts
 
 You have finished importing your account! If you want to import additional accounts, follow these steps:
+
 1. Choose the accounts tab on the top of the extension.
 
 ![Create additional accounts 1](hdx_img/subwallet-5.png)
@@ -157,7 +153,6 @@ You have finished importing your account! If you want to import additional accou
 2. Click on the **Import** icon and repeat the steps above.
 
 ![Create additional accounts 2](hdx_img/subwallet-16.png)
-
 
 ## Interacting with HydraDX
 
@@ -183,11 +178,11 @@ HydraDX is a Substrate-native chain, so you will only be able to view and intera
 
 ## Receive token
 
-From your home screen, choose the first blue icon under the eye. 
+From your home screen, choose the first blue icon under the eye.
 
 ![Receive](hdx_img/subwallet-20.png)
 
-::: important  
+::: important
 
 **If you are in all-accounts mode**, you will be prompted to choose an account if you are in all-accounts mode.
 
@@ -211,7 +206,7 @@ To get started with a simple token transfer to another address on HydraDX, you c
 
 Next, you can take the following steps:
 
-1. Specify the asset to send and the destination chain. 
+1. Specify the asset to send and the destination chain.
 2. Enter the destination address
 3. Enter the amount of tokens to send
 4. Look over the transaction details, then press **Transfer**
@@ -220,13 +215,11 @@ Next, you can take the following steps:
 
 On the next screen, you can review the transaction details and submit the transaction. If the transaction details look good, you can click **Approve** to send the transaction.
 
-![Approve transaction](hdx_img/subwallet-26.png)
-
 After you send the transaction, you can review the transaction details.
 
 ### Connect to the HydraDX dApp
 
-First, head to the [HydraDX dApp](https://app.hydradx.io/trade/swap). Once you arrive at the dApp, you will need to connect your wallet. 
+First, head to the [HydraDX dApp](https://app.hydradx.io/trade/swap). Once you arrive at the dApp, you will need to connect your wallet.
 
 ![Connect Ethereum account](hdx_img/subwallet-27.png)
 
