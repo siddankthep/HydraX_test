@@ -105,7 +105,7 @@ Enter your seed phrase in the text boxes. You can use either a 12-word seed phra
 
 ![Import using seed phrase](hdx_img/subwallet-10.png)
 
-::: important
+:::important
 
 In some cases, if you import an account from a seed phrase, problems can arise if the seed phrase of your original wallet is not compatible with SubWallet. **Trust Wallet** and **Safepal** are among the wallets not compatible with us.
 
@@ -122,7 +122,10 @@ You will then need to enter your JSON file password (created when you set up the
 ![JSON file password](hdx_img/subwallet-12.png)
 
 ::: note
+
 If you want to import multiple accounts simultaneously from a JSON file, you are required to enter the password for each account you want to import.
+
+:::
 
 #### Using MetaMask private key
 
@@ -182,7 +185,7 @@ From your home screen, choose the first blue icon under the eye.
 
 ![Receive](hdx_img/subwallet-20.png)
 
-::: important
+:::important
 
 **If you are in all-accounts mode**, you will be prompted to choose an account if you are in all-accounts mode.
 
@@ -190,7 +193,7 @@ From your home screen, choose the first blue icon under the eye.
 
 :::
 
-Search for the token that you would like to receive, in this case, HDX. You can either **Copy the address** or **View address QR**.
+Search for the token that you would like to receive, in this case, **HDX**. You can either **Copy the address** or **View address QR**.
 
 ![Copy address](hdx_img/subwallet-22.png)
 
@@ -214,6 +217,8 @@ Next, you can take the following steps:
 ![Transaction details](hdx_img/subwallet-25.png)
 
 On the next screen, you can review the transaction details and submit the transaction. If the transaction details look good, you can click **Approve** to send the transaction.
+
+![Approve transaction](hdx_img/subwallet-26.png)
 
 After you send the transaction, you can review the transaction details.
 
